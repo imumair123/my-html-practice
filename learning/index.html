@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Html styles</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+  <body>
+
+    <!-- un ordered list: -->
+     <div class="list">
+        <ul>
+            <li>milk</li>
+            <li>tea</li>
+            <li>coffee</li>
+        </ul>
+    </div>
+
+        <!-- description list: -->
+    <div class="list">   
+        <dl>
+            <dt>umair</dt>
+            <dd>i am  a man</dd>
+            <dt>surjeet kaur</dt>
+            <dd>Iam a Developer</dd>
+        </dl>
+    </div>
+    
+        <!-- HTML Formatting Elements
+        Formatting elements were designed to display special types of text: -->
+        
+            <!-- <b> - Bold text
+            <strong> - Important text
+            <i> - Italic text
+            <em> - Emphasized text
+            <mark> - Marked text
+            <small> - Smaller text
+            <del> - Deleted text or strike out the word or sentence.
+            <ins> - Inserted text
+            <sub> - Subscript text
+            <sup> - Superscript text -->
+
+                <b>My name is umair</b>
+                <br></br>
+                <br></br>
+                <strong>I live <del>in</del> Toronto</strong>
+
+          <!-- HTML Quotation and Citation Elements -->
+
+            <!-- HTML Quotation and Citation Elements
+            Tag	Description
+            <abbr>	Defines an abbreviation or acronym
+            <address>	Defines contact information for the author/owner of a document
+            <bdo>	Defines the text direction
+            <blockquote>	Defines a section that is quoted from another source
+            <cite>	Defines the title of a work
+            <q>	Defines a short inline quotation -->
+
+            <!-- <blockquote> is nothing but where we can add a link of website and i like the message or something which we referred</blockquote>
+            <q> which help to add quoting marks"" </q>
+            <abbr> this abbr tag defines about an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM". </abbr>
+            <address> for contact information</address>
+            <cite>element defines the title of a work.Browsers usually display cite elements in Italic</cite>
+            <bdo>bidirectional override</bdo> -->
+          
+          <p>Here is a quote which referred from the website</p>
+            <blockquote= cite="https://www.jagranjosh.com/general-knowledge/swami-vivekananda-quotes-1681988539-1">
+                <p1>The moment I have realized God sitting in the temple of every human body, the moment I stand in reverence before every human being and see <q>God in him</q> - that moment I am free from bondage, everything that binds vanishes, and I am free."</p1>
+            </blockquote>
+
+            <address> 19 six nations avenue<br>scarborough, ON <br>M1H 1R4.
+            </address>
+
+             <bdo dir="rtl">my name is umair akbar, i live in Toronto</bdo>  <!-- this tag defines the matter will be change from right to left. -->
+
+            
+             <!---------------------- HTML Colors: ------------------------------------>
+
+                <!-- <h1>html colors and borders</h1>
+
+                RGB => Red Green Blue (rgb)
+                HEX => Hexadecimal (#ff0000 or 00ff00)
+                HSL (high, saturation and lightness) and HSLA colors (color values are an extension of HSL color values, with an Alpha channel - which specifies the opacity for a color.
+                An HSLA color value is specified with:
+                hsla(hue, saturation, lightness, alpha) for example: hsla(0,100%,50%,0.5)-->
+                <br>
+                <br>
+            <!-----------------------------------HTML LINKS------------------------------------->    
+                        <!-- HTML Links - Hyperlinks -->
+
+                <!-- <a href="https://www.w3schools.com/">Visit W3Schools.com!</a> -->
+
+                                <!-- HTML Links - The target Attribute
+                By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+                The target attribute specifies where to open the linked document.
+
+                The target attribute can have one of the following values:
+
+                _self - Default. Opens the document in the same window/tab as it was clicked
+                _blank - Opens the document in a new window or tab
+                _parent - Opens the document in the parent frame
+                _top - Opens the document in the full body of the window -->
+                <!-- <img. class="img1"></img> -->
+                <!-- <img src="images/umair.png" alt="umairphoto" title="beech pic" height="400px"> -->
+
+                <!-- HTML Links - Use an Image as a Link as below we have to give link in href as well as image src if it want to show on the screen. -->
+                <a href="./images/Toronto island pic.JPG"> <a>link button</a>
+                <a href="linkbutton"></a>
+                    <img src="./images/Toronto island pic.JPG" alt="toronto island"><div>
+                        
+                    
+                </a>
+                <br>
+                <br>
+
+                <!-- Link to an Email Address -->
+
+                <a href="mailto:someone@example.com">Send email</a><br>
+
+                <!-- Button as a Link -->
+                    <!-- we can use a buttton link but it should a javascript code fot that. -->
+                <button onclick="document.location='default.asp'">HTML Tutorial</button><br><br>
+
+
+                <!-- Use a full URL to link to a web page:  -->
+
+                <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a><br>
+
+                <!-- Use a full URL to link to a web page:  -->
+
+                <a href="https://www.w3schools.com/html/default.asp">HTML tutorial</a><br>
+
+
+                <!-- Link to a page located in the same folder as the current page:  -->
+                <a class="tutorial1"></a>
+                <a href="default.asp">HTML tutorial</a><br>
+             
+        
+                <!-- ------------------------- HTML IMAGES:---------------------------------------- -->
+
+                <!-- <img>
+                src
+                alt
+                width, height(attributes) in html (or) width and height in css.
+                float ( for image float in left or right). -->
+
+
+        <!-- HTML MAP: -->
+<!-- 
+        <img src="./images/colorfulbird.jpg" alt="colorfulbird" usemap= "#workmap">
+        <img map> -->
+        <!-- <area shape="rect" coords="337,300,44" alt="bird" href="./images/colorfulbird.jpg">
+        </img map> -->
+
+    <!-- ------------------------------END OF IMAGE MAP ------------------------ -->
+
+
+        
+    <!-- ----------------------------Background Image on a HTML element----------------------------- -->
+    <!-- To add a background image on an HTML element, use the HTML style attribute and the CSS background-image property:
+    
+    Example
+    Add a background image on a HTML element: -->
+    
+    <p style="background-image: url('img_girl.jpg');">
+    <!-- You can also specify the background image in the <style> element, in the <head> section: -->
+   
+    <!-- Example
+    Specify the background image in the <style> element: -->
+    
+    <style>
+    p {
+      background-image: url('img_girl.jpg');
+    }
+    </style>
+    Background Image on a Page
+    If you want the entire page to have a background image, you must specify the background image on the <body> element:
+    
+    Example
+    Add a background image for the entire page:
+    
+    <style>
+    body {
+      background-image: url('img_girl.jpg');
+    }
+    </style>
+    Background Repeat
+    If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element:
+    
+    Example
+    <style>
+    body {
+      background-image: url('example_img_girl.jpg');
+    }
+    </style>
+    To avoid the background image from repeating itself, set the background-repeat property to no-repeat.
+    
+    Example
+    <style>
+    body {
+      background-image: url('example_img_girl.jpg');
+      background-repeat: no-repeat
+    }
+    </style>
+                                     <!-- not able to understand -->
+    <!-- -----------------------------END OF BACKGROUND IMAGE ON PAGE ---------------------------------- -->
+
+                                    
+       <!----------------------- section : HTML images <picture> Element------------------------- -->
+
+        <!-- <picture> this picture tag helps you to show different sizes of picture in diff screens. for eng mac book samsung phones. -->
+
+            <picture>
+                <source media="(min-width:650px)" srcset="images/Toronto island pic.JPG">
+                <source media="(min-width:650px)" srcset="images/colorfulbird.jpg">
+                <img src="./images/">
+            </picture>
+
+            <!-- -----------------------------html favicon:------------------------------- -->
+
+            <!-- favicon: icon--> <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+           <!-- -----------------------------html tables:-------------------------------- -->
+
+                <!-- <td> stands for table data.
+                <tr> stands for table row.
+                <th> will be the table headers. -->
+            <br>
+            <br>
+            <br>
+
+           <table> 
+            <tr> 
+              <th>SI NO</th>
+              <th>movie name</th>
+              <th>Country</th>
+              <th>summary</th>
+              <th>year</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>dead pool</td>
+              <td>unites states</td>
+              <td>a movie where the hero kill the enemies and he is a martial arts. </td>
+              <td>2024</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Iron man </td>
+              <td>unites states</td>
+              <td>a movie where the hero save the world  </td>
+              <td>2023</td>
+            </tr>
+          </table>
+          <br>
+          <br>
+          <br>
+        
+
+                        <!-- dotted     
+                        dashed     
+                        solid     
+                        double     
+                        groove     
+                        ridge     
+                        inset     
+                        outset     
+                        none     
+                        hidden      -->
+
+
+          <!-- above is table headers and now i am doing a vertical table it is same but just only little bit different. -->
+
+          <!-- VERTICAL TABLE: -->  
+
+          
+          <table>
+                <th>first name</th>
+                <td>umair</td>
+                <th>location</th>
+                <td>toronto</td>
+                <th>postal code</th>
+                <td>M1H 1R4</td>
+
+          </table>
+
+          <br>
+          <br>
+          <br>
+
+          <!-------------------------------section css flex box: ------------------------------------->
+
+          <!-- <h1>flex container</h1> -->
+
+          <div class="flex-container">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+              <div>5</div>
+              <div>6</div>
+              <div>7</div>
+              <div>8</div>
+              <div>9</div>
+              <div>10</div>
+              <div>11</div>
+              <div>12</div>
+              <div>13</div>
+              <div>14</div>
+              <div>15</div>
+          </div>
+
+                    <!-- The flex container properties are:
+
+                    1) flex-direction
+                    2) flex-wrap
+                    3) flex-flow
+                    4) justify-content
+                    5) align-items
+                    6) align-content -->
+
+          <!-- 1) flex direction: The flex-direction property defines in which direction the container wants to stack the flex items. -->
+          <!-- in flex direction  you will get to know about text direction which are coloum, row, coloum-reverse and row reverse. -->
+
+          <!-- 2 and 3) The flex-wrap Property: The flex-wrap property specifies whether the flex items should wrap or not.-->
+              <!-- in the flex wrap property we have read 
+               1) flex-warp:wrap, 
+               2) flex wrap:nowrap.
+               3) flex-wrap:wrap-reverse and
+               4) flex-flow:row wrap. -->
+
+          <!-- 4)  The justify-content Property
+                   The justify-content property is used to align the flex items: -->
+
+               <!-- justify-content:center.
+                justify content: flex-start which is start from beginneing which means it is bydefault.
+                The flex-end value aligns the flex items at the end of the container.
+                The space-around value displays the flex items with space before, between, and after the lines: -->
+
+              <!-- 5) align items:  -->
+
+              <!-- HTML Block and Inline Elements: -->
+              <!-- Here are the block-level elements in HTML: as written inbelow; -->
+
+                  <!-- <address><article><aside><blockquote><canvas><dd>
+              <div><dl><dt><fieldset><figcaption><figure><footer><form><h1>-<h6><header><hr><li><main>
+                <nav><noscript><ol><p><pre><section><table><tfoot><ul><video> -->
+
+                  <!-- INLINE Elements are: -->
+
+                  <!-- <a><abbr><acronym><b><bdo><big><br><button><cite><code><dfn><em><i><img><input><kbd><label><map><object
+                     <output><q><samp><script><select><small><span><strong><sub><sup><textarea><time><tt><var> -->
+
+            <!-- ----------------------------Using The class Attribute:----------------------------------- -->
+
+
+            <!-- In this section there are three div elemnts with the class value "city" and with the <style class="css"</style> -->
+                    <!-- in this i have added an icom beside the country name. -->
+                <div>
+                  <h1 class="country-heading"><span><img src="images/united-states.png" class="pic"></span>
+                    UNITED STATES OF AMERICA</h1>
+                  <p class="country-para">The United States of America is the world's third largest country in size<br> And nearly the third largest in terms of population.</P>
+                </div>
+
+                <div>
+                  <h1 class="country-heading"><span><img src="./images/canada.png" class="pic"></span>Canada</h1>
+                  <p class="country-para"> Canada is a vast and rugged land. From north to south it spans more than half the Northern Hemisphere. <br>From east to west it stretches almost 4,700 miles (7,560 kilometers) across six time zones.</p>
+                </div>
+
+
+
+
+
+</body>
+</html>

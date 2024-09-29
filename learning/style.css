@@ -1,0 +1,231 @@
+body
+{
+ background-image: url("D:\learning\images\background image.jpg");
+ 
+}
+
+
+li
+{
+    font-size: 20px;
+    color:rgb(7, 7, 7);  
+}
+
+dt
+{
+    font-size: 20px;
+    color:blueviolet;
+}
+dd{
+    font-size: 15px;
+}
+
+
+.list{
+    align-items:center;
+    display:flex;
+    justify-content: center;
+}
+
+b
+{
+    font-size: 15px;
+    color:blue;
+    font-style: italic;
+    display:flex;
+    justify-content:center;
+}
+
+
+strong
+{
+    font-size:20px ;
+    color:red;
+    background-color: black;
+}
+
+p{
+    font-size: 25px;
+    color:white;
+
+}
+
+p1
+{
+    color: red;
+    font-weight: bold;
+    font-style:normal;
+}
+          /* ------------------------------------FOR HEADINGS --------------------------------------*/
+h1{
+    color: dodgerblue;
+    /* background-color: black; */
+    border: 2px;
+    border: dodgerblue;
+    justify-content: flex-start;
+    display: flex;
+
+}
+
+              /*--------------------------------- FOR IMAGES----------------------------- */
+/* img{ */
+    /* float:left; */
+/* } */
+
+
+img
+{
+    width:400px;
+    /* float:right; */
+    border-color: black;
+    justify-content: center;
+    display: flex;
+
+}
+
+    /* -----CSS for link how the color changes and giver and when you visit what color should be n more.---- */
+a:link
+{
+    color:green;
+    background-color: black;
+
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  /* css for hover on links to color change when you click. */
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+      /*------------------------ END OF LINKS TO COLOR ------------------------------------*/
+
+
+        /* Link Buttons
+      A link can also be styled as a button, by using CSS: */
+
+a:tutorial1, a:visited 
+{
+background-color: #f44336;
+color: white;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+      
+a:hover, a:active 
+{
+background-color: red;
+}
+
+   /* --------------------END OF LINK BUTTON USING CSS------------------------- */
+
+
+
+   table,th,tr
+
+{
+    /* width: 80%; */
+    border-collapse: collapse;
+    border-radius: 10px;
+    border-color: aqua;
+    padding-bottom: 20px;
+
+}
+
+
+/* table,td
+{
+    display: flex;
+    background-color: brown;
+    flex-wrap: nowrap;
+    flex-direction: row; 
+}*/
+
+
+table ,th
+{
+    /* width: 100px; */
+    height: 100px;
+    border-color: black;
+    border: solid  3px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    
+
+}
+
+table, tr
+{
+    /* height: 100px; */
+    text-align: center;
+    width: 100%;
+    border:solid 2px;
+    border-color: aqua;
+    border-radius: 5px;
+    padding:10px;
+}
+
+
+/*------------------------- section css for flex box:----------------------------------------- */
+
+.flex-container
+{
+    display:flex;
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: row wrap;
+
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    
+
+    background-color: #f44336;
+
+}
+
+.flex-container >div {
+
+background-color: teal;
+margin: 20px;
+width: 100px;
+text-align: center;
+/* align-content: space-between; */
+/* text-align: left; */
+/* text-align: right; */
+line-height: 100px;
+/* padding: 30px; agar hum padding na diye toh poora ek container mai ajara but if we give a padding then it will be out of the box. */
+font-size:35px;
+/* color: rgb(32, 192, 0); */
+
+}
+/* */
+.country-heading{
+    color:#f44336;
+}
+
+.country-para{
+    color:blue;
+
+}
+.pic{
+    width:40px;
+    height:40px;
+    padding-right:20px;
+}
+
+
